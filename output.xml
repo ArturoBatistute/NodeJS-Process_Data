@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.1020" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-01-28T00:01:03" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Fifa data processing" timestamp="2020-01-28T00:01:03" tests="6" file="/home/roots/codenation/nodejs-1/test/submit.test.js" time="0.1020" failures="1">
+    <testcase name="Fifa data processing q1" time="0.0080" classname="q1">
+    </testcase>
+    <testcase name="Fifa data processing q2" time="0.0070" classname="q2">
+    </testcase>
+    <testcase name="Fifa data processing q3" time="0.0000" classname="q3">
+    </testcase>
+    <testcase name="Fifa data processing q4" time="0.0280" classname="q4">
+      <failure message="expected [ Array(10) ] to have the same members as [ Array(10) ]" type="AssertionError"><![CDATA[AssertionError: expected [ Array(10) ] to have the same members as [ Array(10) ]
+    at Context.it (test/submit.test.js:47:32)]]></failure>
+    </testcase>
+    <testcase name="Fifa data processing q5" time="0.0520" classname="q5">
+    </testcase>
+    <testcase name="Fifa data processing q6" time="0.0070" classname="q6">
+    </testcase>
+  </testsuite>
+</testsuites>
